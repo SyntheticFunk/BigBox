@@ -1,0 +1,14 @@
+"bigbox"
+{
+	"base"		"sandbox"
+	"title"		"BigBox"
+	"maps"		"gm_"
+	"menusystem"	"1"
+	"workshopid"	""
+
+	"settings"
+	{
+
+	}
+
+}

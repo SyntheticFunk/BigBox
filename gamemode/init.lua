@@ -1,0 +1,8 @@
+AddCSLuaFile( "cl_init.lua" )
+AddCSLuaFile( "shared.lua" )
+AddCSLuaFile("entities/sent_prop/init.lua")
+AddCSLuaFile("entities/sent_prop/cl_init.lua")
+AddCSLuaFile("entities/sent_prop/shared.lua")
+AddCSLuaFile("spropprotection/sh_SPropProtection.lua")
+include( 'shared.lua' )
+include( 'spropprotection/sh_SPropProtection.lua' )
