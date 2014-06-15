@@ -149,7 +149,7 @@ end--[[		 Part of the Old Wiremod Client-trace workaround
  end]]--
 end
 
-hook.Add( "Tick", "BigBox_Clientside", Tick )    
+hook.Add( "Think", "BigBox_Clientside", Tick ) --so it ll not run when there ar no clients and still run every tick :p   
  
 
  
